@@ -1,3 +1,5 @@
+// Components changes
+
 .main-title {
   font-size: 26px;
   color: $title;
@@ -6,6 +8,10 @@
 .component-title {
   font-size: 18px;
   color: $title;
+}
+
+.image {
+  object-fit: cover;
 }
 
 .common-listing-container {

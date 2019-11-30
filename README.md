@@ -1,12 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Copy and Paste
-```bash
+
+````bash
 # clone the repo
 $ git clone https://github.com/kldnajjar/mawdoo3.git
 
 # go into app's directory
-$ cd my-project
+$ cd mawdoo3
 
 # install app's dependencies
 $ npm install
@@ -20,7 +21,7 @@ $ cd my-project
 
 # install app's dependencies
 $ npm install
-```
+````
 
 ## Available Scripts
 
