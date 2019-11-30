@@ -1,0 +1,88 @@
+.main-title {
+  font-size: 26px;
+  color: $title;
+}
+
+.component-title {
+  font-size: 18px;
+  color: $title;
+}
+
+.common-listing-container {
+  .title {
+    font-size: 15px;
+  }
+  .description {
+    font-size: 15px;
+    line-height: 24px;
+    --max-lines: 2;
+    max-height: calc(var(--lh) * var(--max-lines));
+    overflow: hidden;
+  }
+  .information {
+    @extend .gray-color;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  .more-content {
+    cursor: pointer;
+    color: #209dfc;
+    box-shadow: 0px -20px 30px 18px rgba(255, 255, 255, 1);
+    position: absolute;
+    width: 98%;
+    bottom: -6px;
+    padding-top: 0;
+
+    .col {
+      padding: 5px;
+      background-color: #ffffff;
+    }
+  }
+}
+
+.most-listing-content {
+  border-left: 16px solid $yellow-color;
+}
+
+.most-listing-container {
+  .card {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover .number {
+      color: $yellow-color;
+    }
+  }
+
+  .number {
+    font-size: 22px;
+    color: $gray-color;
+    word-break: break-all;
+    align-self: center;
+  }
+
+  .title {
+    --max-lines: 1;
+    max-height: calc(var(--lh) * var(--max-lines));
+    overflow: hidden;
+  }
+
+  .image {
+    border-radius: 4px;
+  }
+
+  .information {
+    color: $gray-color;
+  }
+}

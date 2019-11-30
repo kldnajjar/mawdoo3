@@ -1,0 +1,41 @@
+.rtl {
+  direction: rtl;
+}
+
+html {
+  @extend .rtl;
+  --lh: 1.4rem;
+  line-height: var(--lh);
+  font-size: 16px;
+}
+
+body {
+  font: normal normal 16px/1.4 "Tajawal", sans-serif, Arial;
+  text-align: right;
+  background-color: $background-color;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.yellow-color {
+  color: $yellow-color;
+}
+
+.gray-color {
+  color: $gray-color;
+}
+
+.light-gray-color {
+  color: $light-gray-color;
+}
+
+.dark-gray-color {
+  color: $dark-gray-color;
+}
+
+.card {
+  border-width: 0;
+  box-shadow: 0 0 5px 0 rgba(131, 131, 131, 0.3);
+}
